@@ -7,3 +7,4 @@ Created on Tue Mar 17 11:46:13 2026
 
 from .mammals import Mammals
 from .birds import Birds
+from .fish import Fish
