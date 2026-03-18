@@ -7,11 +7,8 @@ Created on Tue Mar 17 11:52:19 2026
 
 import animals
 
-m = animals.Mammals()
-m.printMembers()
+harmless_birds = animals.harmless.Birds()
+harmless_birds.printMembers()
 
-b = animals.Birds()
-b.printMembers()
-
-f = animals.Fish()
-f.printMembers()
+dangerous_fish = animals.dangerous.Fish()
+dangerous_fish.printMembers()
